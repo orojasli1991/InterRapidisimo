@@ -1,0 +1,17 @@
+C:\Users\Lenovo\source\repos\StudentManagementInterRapidisimo\StudentManagement.Application\bin\Debug\net8.0\StudentManagementInterRapidisimo.Application.deps.json
+C:\Users\Lenovo\source\repos\StudentManagementInterRapidisimo\StudentManagement.Application\bin\Debug\net8.0\StudentManagementInterRapidisimo.Application.dll
+C:\Users\Lenovo\source\repos\StudentManagementInterRapidisimo\StudentManagement.Application\bin\Debug\net8.0\StudentManagementInterRapidisimo.Application.pdb
+C:\Users\Lenovo\source\repos\StudentManagementInterRapidisimo\StudentManagement.Application\bin\Debug\net8.0\StudentManagementInterRapidisimo.Dao.dll
+C:\Users\Lenovo\source\repos\StudentManagementInterRapidisimo\StudentManagement.Application\bin\Debug\net8.0\StudentManagementInterRapidisimo.Domain.dll
+C:\Users\Lenovo\source\repos\StudentManagementInterRapidisimo\StudentManagement.Application\bin\Debug\net8.0\StudentManagementInterRapidisimo.Dao.pdb
+C:\Users\Lenovo\source\repos\StudentManagementInterRapidisimo\StudentManagement.Application\bin\Debug\net8.0\StudentManagementInterRapidisimo.Domain.pdb
+C:\Users\Lenovo\source\repos\StudentManagementInterRapidisimo\StudentManagement.Application\obj\Debug\net8.0\StudentManagementInterRapidisimo.Application.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\StudentManagementInterRapidisimo\StudentManagement.Application\obj\Debug\net8.0\StudentManagementInterRapidisimo.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\StudentManagementInterRapidisimo\StudentManagement.Application\obj\Debug\net8.0\StudentManagementInterRapidisimo.Application.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\StudentManagementInterRapidisimo\StudentManagement.Application\obj\Debug\net8.0\StudentManagementInterRapidisimo.Application.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\StudentManagementInterRapidisimo\StudentManagement.Application\obj\Debug\net8.0\StudentManagementInterRapidisimo.Application.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\StudentManagementInterRapidisimo\StudentManagement.Application\obj\Debug\net8.0\StudentM.2B3A77F3.Up2Date
+C:\Users\Lenovo\source\repos\StudentManagementInterRapidisimo\StudentManagement.Application\obj\Debug\net8.0\StudentManagementInterRapidisimo.Application.dll
+C:\Users\Lenovo\source\repos\StudentManagementInterRapidisimo\StudentManagement.Application\obj\Debug\net8.0\refint\StudentManagementInterRapidisimo.Application.dll
+C:\Users\Lenovo\source\repos\StudentManagementInterRapidisimo\StudentManagement.Application\obj\Debug\net8.0\StudentManagementInterRapidisimo.Application.pdb
+C:\Users\Lenovo\source\repos\StudentManagementInterRapidisimo\StudentManagement.Application\obj\Debug\net8.0\ref\StudentManagementInterRapidisimo.Application.dll
