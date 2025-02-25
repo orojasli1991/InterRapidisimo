@@ -1,0 +1,11 @@
+C:\Users\Lenovo\source\repos\StudentManagementInterRapidisimo\StudentManagement.Domain\bin\Debug\net8.0\StudentManagement.Domain.deps.json
+C:\Users\Lenovo\source\repos\StudentManagementInterRapidisimo\StudentManagement.Domain\bin\Debug\net8.0\StudentManagement.Domain.dll
+C:\Users\Lenovo\source\repos\StudentManagementInterRapidisimo\StudentManagement.Domain\bin\Debug\net8.0\StudentManagement.Domain.pdb
+C:\Users\Lenovo\source\repos\StudentManagementInterRapidisimo\StudentManagement.Domain\obj\Debug\net8.0\StudentManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\StudentManagementInterRapidisimo\StudentManagement.Domain\obj\Debug\net8.0\StudentManagement.Domain.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\StudentManagementInterRapidisimo\StudentManagement.Domain\obj\Debug\net8.0\StudentManagement.Domain.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\StudentManagementInterRapidisimo\StudentManagement.Domain\obj\Debug\net8.0\StudentManagement.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\StudentManagementInterRapidisimo\StudentManagement.Domain\obj\Debug\net8.0\StudentManagement.Domain.dll
+C:\Users\Lenovo\source\repos\StudentManagementInterRapidisimo\StudentManagement.Domain\obj\Debug\net8.0\refint\StudentManagement.Domain.dll
+C:\Users\Lenovo\source\repos\StudentManagementInterRapidisimo\StudentManagement.Domain\obj\Debug\net8.0\StudentManagement.Domain.pdb
+C:\Users\Lenovo\source\repos\StudentManagementInterRapidisimo\StudentManagement.Domain\obj\Debug\net8.0\ref\StudentManagement.Domain.dll
