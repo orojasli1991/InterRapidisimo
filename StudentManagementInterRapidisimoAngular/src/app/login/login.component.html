@@ -1,0 +1,19 @@
+<div class="login-container container mt-5">
+  <h2 class="text-center mb-4">Login</h2>
+
+  <form [formGroup]="loginForm" (ngSubmit)="login()">
+    <!-- Correo -->
+    <div class="mb-3">
+      <label for="username" class="form-label">Correo</label>
+      <input id="username" formControlName="username" type="email" class="form-control" required />
+      <div *ngIf="loginForm.controls['username']?.invalid && loginForm.controls['username']?.touched" class="invalid-feedback">
+        <small>Ingrese un correo válido</small>
+      </div>
+    </div>
+    <!-- Botón de ingreso -->
+    <button type="submit" class="btn btn-primary w-100" [disabled]="loginForm.invalid">Ingresar</button>
+
+    <!-- Mensaje de error -->
+    <p *ngIf="errorMessage" class="text-danger mt-3 text-center">{{ errorMessage }}</p>
+  </form>
+</div>

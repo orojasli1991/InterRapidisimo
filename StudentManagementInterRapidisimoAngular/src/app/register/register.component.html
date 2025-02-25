@@ -1,0 +1,40 @@
+<div *ngIf="step === 1" class="container mt-5">
+    <div class="card shadow-lg">
+      <div class="card-header bg-primary text-white">
+        <h3 class="mb-0">Register Student</h3>
+      </div>
+      <div class="card-body">
+        <form>
+          <div class="mb-3">
+            <label for="studentName" class="form-label">Name</label>
+            <input 
+              id="studentName" 
+              class="form-control" 
+              [(ngModel)]="newStudent.name" 
+              name="name" 
+              placeholder="Full Name" 
+              required 
+            />
+          </div>
+          
+          <div class="mb-3">
+            <label for="studentEmail" class="form-label">Email</label>
+            <input 
+              id="studentEmail" 
+              class="form-control" 
+              [(ngModel)]="newStudent.email" 
+              name="email" 
+              placeholder="Email" 
+              type="email" 
+              required 
+            />
+          </div>
+    
+          <button class="btn btn-primary" (click)="addStudent()">
+            <i class="bi bi-person-plus"></i> Add Student
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+  

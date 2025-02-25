@@ -1,0 +1,63 @@
+<main class="main">
+  <div class="content">
+    <!-- Navbar con Bootstrap mejorada -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
+      <div class="container">
+        <a class="navbar-brand" routerLink="/">
+          <i class="bi bi-house-door"></i> Student Management/InterRapidisimo
+        </a>
+        <button 
+          class="navbar-toggler" 
+          type="button" 
+          data-bs-toggle="collapse" 
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav" 
+          aria-expanded="false" 
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/login" routerLinkActive="active">
+                <i class="bi bi-box-arrow-in-right"></i> Login
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/register" routerLinkActive="active">
+                <i class="bi bi-person-plus"></i> Register
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/login" routerLinkActive="active">
+                <i class="bi bi-box-arrow-right"></i> Logout
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/students-class-details" routerLinkActive="active">
+                <i class="bi bi-journal"></i> Summary/Subject
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/students" routerLinkActive="active">
+                <i class="bi bi-clipboard"></i> Summary/Register
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Contenido principal -->
+    <div class="container py-4">
+      <router-outlet></router-outlet>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center text-lg-start mt-auto">
+      <div class="container p-3">
+        <p class="mb-0">&copy; 2025 Student Management/InterRapidisimo System. All rights reserved.</p>
+      </div>
+    </footer>
+  </div>
+</main>

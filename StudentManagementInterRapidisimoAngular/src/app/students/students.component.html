@@ -1,0 +1,76 @@
+<div class="container mt-4">
+  <h2 class="mb-4 text-center text-primary">Lista de Estudiantes</h2>
+
+  <div *ngIf="students.length > 0; else noData">
+    <ul class="list-group">
+      <li *ngFor="let student of students" class="list-group-item d-flex justify-content-between align-items-center p-3 shadow-lg rounded-3 border border-primary">
+        <div>
+          <p class="fw-bold mb-1">Student ID: <span class="badge bg-info text-dark">{{ student.Id }}</span></p>
+          <h5 class="mb-2 text-secondary"><i class="bi bi-person-circle me-2"></i>{{ student.Name }}</h5>
+          <p class="mb-1 text-muted"><i class="bi bi-envelope me-2"></i>{{ student.Email }}</p>
+        </div>
+        <div *ngIf="student.Id === loggedInUserId" class="d-flex gap-3">
+          <button 
+            class="btn btn-primary btn-sm d-flex align-items-center px-3 py-2 shadow-sm" 
+            (click)="editStudent(student)"
+          >
+            <i class="bi bi-pencil me-2 fs-5"></i> Edit
+          </button>
+          
+          <button 
+            class="btn btn-danger btn-sm d-flex align-items-center px-3 py-2 shadow-sm" 
+            (click)="deleteStudent(student.Id)"
+          >
+            <i class="bi bi-trash me-2 fs-5"></i> Delete
+          </button>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <ng-template #noData>
+    <div class="alert alert-info mt-3 text-center" role="alert">
+      <i class="bi bi-info-circle me-2"></i> No hay estudiantes registrados.
+    </div>
+  </ng-template>
+
+  <hr class="my-4" />
+
+  <h2 class="mb-4 text-center text-warning">Edit Student</h2>
+
+  <form *ngIf="selectedStudent.Id" #editForm="ngForm" (ngSubmit)="updateStudent()" class="needs-validation p-4 border rounded shadow bg-light" novalidate>
+    <div class="mb-3">
+      <label for="name" class="form-label">Name:</label>
+      <input
+        type="text"
+        id="name"
+        [(ngModel)]="selectedStudent.Name"
+        name="name"
+        class="form-control"
+        placeholder="Ingrese el nombre"
+        required
+      />
+    </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">Email:</label>
+      <input
+        type="email"
+        id="email"
+        [(ngModel)]="selectedStudent.Email"
+        name="email"
+        class="form-control"
+        placeholder="Ingrese el correo electrónico"
+        required
+      />
+    </div>
+
+    <div class="d-flex justify-content-center">
+      <button type="submit" class="btn btn-success me-3 d-flex align-items-center">
+        <i class="bi bi-check-circle me-1"></i> Save
+      </button>
+      <button type="button" class="btn btn-secondary d-flex align-items-center" (click)="editingStudent = null">
+        <i class="bi bi-x-circle me-1"></i> Cancel
+      </button>
+    </div>
+  </form>
+</div>

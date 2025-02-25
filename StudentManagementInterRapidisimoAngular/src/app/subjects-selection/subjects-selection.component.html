@@ -1,0 +1,58 @@
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-lg-10">
+      <h3 class="mb-4 text-center text-primary">SELECT SUBJECTS</h3>
+
+      <div class="list-group">
+        <div 
+          *ngFor="let subject of subjects" 
+          class="list-group-item p-4 rounded border border-2 shadow-lg"
+          [ngClass]="{'bg-primary text-white': selectedSubjects.includes(subject)}"
+          style="cursor: pointer; transition: transform 0.2s;"
+          (click)="onSubjectSelect(subject)"
+        >
+          <div class="form-check d-flex align-items-center">
+            <input 
+              type="checkbox" 
+              class="form-check-input me-3" 
+              [checked]="selectedSubjects.includes(subject)" 
+              id="subject-{{subject.id}}"
+              style="transform: scale(1.8); cursor: pointer;"
+            />
+            <label 
+              class="form-check-label w-100" 
+              for="subject-{{subject.id}}"
+              style="cursor: pointer; font-size: 1.2rem;"
+            >
+              <div class="d-flex justify-content-between align-items-center">
+                <div>
+                  <strong class="fs-4">{{ subject.name }}</strong>
+                  <span class="badge bg-warning ms-3 text-dark">{{ subject.credits }} créditos</span>
+                </div>
+                <div>
+                  <span class="fw-bold">
+                    <i class="bi bi-person-fill"></i> Profesor ID: {{ subject.teacherId }}
+                  </span>
+                </div>
+              </div>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div *ngIf="errorMessage" class="alert alert-danger mt-4">
+        {{ errorMessage }}
+      </div>
+
+      <div class="text-center">
+        <button 
+          class="btn btn-success mt-4 btn-lg px-5 py-3 fw-bold shadow"
+          (click)="saveSelection()" 
+          [disabled]="selectedSubjects.length !== 3"
+        >
+          SAVE
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
