@@ -1,0 +1,17 @@
+C:\Users\Lenovo\source\repos\StudentManagementInterRapidisimo\StudentManagement.Dao\bin\Debug\net8.0\StudentManagementInterRapidisimo.Dao.deps.json
+C:\Users\Lenovo\source\repos\StudentManagementInterRapidisimo\StudentManagement.Dao\bin\Debug\net8.0\StudentManagementInterRapidisimo.Dao.runtimeconfig.json
+C:\Users\Lenovo\source\repos\StudentManagementInterRapidisimo\StudentManagement.Dao\bin\Debug\net8.0\StudentManagementInterRapidisimo.Dao.dll
+C:\Users\Lenovo\source\repos\StudentManagementInterRapidisimo\StudentManagement.Dao\bin\Debug\net8.0\StudentManagementInterRapidisimo.Dao.pdb
+C:\Users\Lenovo\source\repos\StudentManagementInterRapidisimo\StudentManagement.Dao\bin\Debug\net8.0\StudentManagementInterRapidisimo.Domain.dll
+C:\Users\Lenovo\source\repos\StudentManagementInterRapidisimo\StudentManagement.Dao\bin\Debug\net8.0\StudentManagementInterRapidisimo.Domain.pdb
+C:\Users\Lenovo\source\repos\StudentManagementInterRapidisimo\StudentManagement.Dao\obj\Debug\net8.0\StudentManagementInterRapidisimo.Dao.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\StudentManagementInterRapidisimo\StudentManagement.Dao\obj\Debug\net8.0\StudentManagementInterRapidisimo.Dao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\StudentManagementInterRapidisimo\StudentManagement.Dao\obj\Debug\net8.0\StudentManagementInterRapidisimo.Dao.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\StudentManagementInterRapidisimo\StudentManagement.Dao\obj\Debug\net8.0\StudentManagementInterRapidisimo.Dao.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\StudentManagementInterRapidisimo\StudentManagement.Dao\obj\Debug\net8.0\StudentManagementInterRapidisimo.Dao.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\StudentManagementInterRapidisimo\StudentManagement.Dao\obj\Debug\net8.0\StudentM.86CC7CA7.Up2Date
+C:\Users\Lenovo\source\repos\StudentManagementInterRapidisimo\StudentManagement.Dao\obj\Debug\net8.0\StudentManagementInterRapidisimo.Dao.dll
+C:\Users\Lenovo\source\repos\StudentManagementInterRapidisimo\StudentManagement.Dao\obj\Debug\net8.0\refint\StudentManagementInterRapidisimo.Dao.dll
+C:\Users\Lenovo\source\repos\StudentManagementInterRapidisimo\StudentManagement.Dao\obj\Debug\net8.0\StudentManagementInterRapidisimo.Dao.pdb
+C:\Users\Lenovo\source\repos\StudentManagementInterRapidisimo\StudentManagement.Dao\obj\Debug\net8.0\StudentManagementInterRapidisimo.Dao.genruntimeconfig.cache
+C:\Users\Lenovo\source\repos\StudentManagementInterRapidisimo\StudentManagement.Dao\obj\Debug\net8.0\ref\StudentManagementInterRapidisimo.Dao.dll
